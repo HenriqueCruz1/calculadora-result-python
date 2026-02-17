@@ -29,7 +29,7 @@ def calcular (valor1 , valor2, operação) -> Result:
 while True:
     try:
         v1 = float(input('Digite o primeiro valor: '))
-        op = input('Digite a operação (+ - /')
+        op = input('Digite a operação (+ - / ) ')
         v2 = float(input('Digite o segundo valor: '))
 
         resultado = calcular(v1, v2, op)
